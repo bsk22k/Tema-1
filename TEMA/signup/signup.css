@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.title {
+  font-size: 34px;
+  margin-bottom: 22px;
+}
+
+.username-field,
+.password-field1,
+.password-field2 {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.stay-sign-in {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Adăugat pentru a alinia la stânga */
+  margin-bottom: 15px;
+}
+
+.sageata {
+  width: 100px;
+  height: 100px;
+  margin: 15px auto;
+  display: block;
+}
+
+.grid-container p {
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 14px;
+}

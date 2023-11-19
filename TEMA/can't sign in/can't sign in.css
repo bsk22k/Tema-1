@@ -1,0 +1,50 @@
+body {
+    background-image: url('fundal.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #fff;
+}
+
+.grid-container > div:not(.title):not(.subtitle) {
+    max-width: 300px;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.om,
+.lacat,
+.email {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto; 
+}
+
+p {
+    color: #333;
+    font-size: 14px;
+    margin-top: 10px;
+}
